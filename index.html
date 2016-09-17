@@ -3,14 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Broadcast Channel API</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<a href="second.html" target="_blank">Open second page to receive message</a>
+<div class="column-6">
+	<p>Send a message to second.html</p>
+	<input class="message-text" placeholder="Your message">
+	<button class="send">Send now</button>
+	<div class="message-content"></div>
+</div>
 
-<p>Send a message to second.html"</p>
-<button class="send">Send now</button>
-
+<div class="iframe-content column-6">
+	<p>This is the iframe (second.html)</p>
+	<iframe src="second.html"></iframe>
+</div>
 
 <script src="script.js"></script>
 	

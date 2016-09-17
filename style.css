@@ -1,0 +1,23 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.message-content span {
+	color: #3f3fa0;
+  font-size: 16px;
+}
+
+.column-6 {
+	width: 50%;
+	float: left;
+}
+
+.iframe-content iframe {
+	width: 100%; 
+	border: none;
+	display: block;
+}
