@@ -1,14 +1,20 @@
 html, body {
 	height: 100%;
+	font-size: 14px;
 }
 
 body {
 	font-family: sans-serif;
 }
 
+.message-content {
+	background: #fbfbfb;
+  border-radius: 10px;
+  padding: 5px;
+}
+
 .message-content span {
 	color: #3f3fa0;
-  font-size: 16px;
 }
 
 .column-6 {
@@ -20,4 +26,11 @@ body {
 	width: 100%; 
 	border: none;
 	display: block;
+	height: 100vh;
+}
+
+.disable {
+	text-decoration: underline;
+	cursor: pointer;
+	color: blue;
 }
